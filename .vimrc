@@ -22,4 +22,7 @@ filetype plugin indent on    " required
 
 source ~/.a.vimrc
 source ~/.molokai.vimrc
-set mouse-=a
+source ~/.autohighlight.vim
+nnoremap x, :set mouse-=a<CR>
+nnoremap x. :set mouse+=a<CR>
+"call AutoHighlightToggle()
